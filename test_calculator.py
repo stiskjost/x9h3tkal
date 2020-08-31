@@ -74,4 +74,4 @@ def test_add_string_with_float_raises_TypeError_exercise_5(arg):
 )
 def test_divide_by_zero_raises_ZeroDivisionError_exercise_5(arg):
     with pytest.raises(ZeroDivisionError):
-        calculator.divide(arg, 0)
+        calculator.divide(arg, 1)
