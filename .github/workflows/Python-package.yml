@@ -3,9 +3,9 @@ name: Python package
 
 on:
   push:
-    branches: https://github.com/stiskjost/Project-Zero.git
+    branches: [ master ]
   pull_request:
-    branches: https://github.com/stiskjost/Project-Zero.git
+    branches: [ master ]
 
 jobs:
   build:
